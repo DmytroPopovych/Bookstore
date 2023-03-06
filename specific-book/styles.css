@@ -1,0 +1,71 @@
+.header{
+    display: flex;
+    justify-content:space-between;
+}
+.name {
+    display: flex;    
+    align-items: center;    
+    font-size: 16px;
+    font-weight: 700;
+}
+.cart {
+    margin: 10px;    
+}
+
+button {
+    flex-direction: row;
+    align-items: flex-start;
+    border-radius: 8px;
+    padding: 10px 20px;  
+    border: 1px solid  #565353;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.avatar {
+    border: 1px solid  #565353;
+    border-radius: 100px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;    
+}
+
+.show {
+    /* border: 1px solid  #565353; */
+    width: 100%;
+    padding: 10px;    
+}
+
+.description {
+    display: flex;
+    flex-direction: column;       
+}
+.border {  
+    height: 50%;
+    border: 2px dashed #565353;
+    padding: 10px;
+}
+.right {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;    
+}
+.add {
+    display: flex;
+    justify-content: end;
+}
+
+input {
+    
+    border: 1px solid  #565353;
+    border-radius: 8px;
+    width: 50px;
+    text-align: right;
+      
+}
+input::-webkit-inner-spin-button {
+   opacity: 1;
+   
+}   
